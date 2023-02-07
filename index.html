@@ -1,0 +1,343 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IRCTC 2.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.30/vue.global.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/secondry-logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+                <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navcol-1" class="collapse navbar-collapse justify-content-center">
+                <!-- Translate Language -->
+                <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+                <script>
+                    function loadGoogleTranslate() {
+                        new google.translate.TranslateElement("myid");
+                    }
+                </script>
+                <div id="myid"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="navbar-nav justify-content-center">
+
+                            <li class="nav-item">
+                                <a style="
+                      background-color: #213d77;
+                      color: white;
+                      font-weight: 700;
+                    " class="nav-link active" aria-current="page" href="#">LOGIN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">REGISTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">AGENT LOGIN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">ASK DISHA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="background-color: rgb(219, 218, 218)" class="nav-link active"
+                                    aria-current="page" href="#">ALERTS</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12">
+                        <ul class="navbar-nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><img
+                                        src="https://img.icons8.com/material-rounded/18/null/home-page.png" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="
+                      background-color: #213d77;
+                      color: white;
+                      font-weight: 700;
+                    " class="nav-link active" aria-current="page" href="#">IRCTC EXCLUSIVE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">TRAINS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">BUS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">FLIGHTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">MEALS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">LOYALITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">PROMOTIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">MORE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo-1.png" alt="" />
+        </a>
+    </nav>
+
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="container text-center text-md-left" data-aos="fade-up">
+            <h1>Welcome to <span>IRCTC 2.O</span></h1>
+            <h2>Book Ticket</h2>
+            <select class="form-select-md" aria-label="Default select example">
+                <option selected>From</option>
+                <option value="1">HAZRAT NIZZAMUDIN</option>
+                <option value="1">DELHI CANTT</option>
+                <option value="1">YESHWANTPUR</option>
+                <option value="1">PUNE</option>
+                <option value="1">SBC BANGALORE</option>
+                <option value="1">HYDERABAD</option>
+                <option value="1">CHENNAI CENTRAL</option>
+                <option value="1">TIRUPATI</option>
+                <option value="1">COIMBATORE</option>
+                <option value="1">AGRA</option>
+                <option value="1">LUCKNOW</option>
+                <option value="1">PRAYAGRAJ</option>
+                <option value="1">NAGPUR</option>
+                <option value="1">NEW DELHI</option>
+                <option value="1">NAGORE</option>
+                <option value="1">AJMER</option>
+                <option value="1">MATHURA</option>
+                <option value="1">KOTA</option>
+                <option value="1">DAHAR KA BALAJI</option>
+                <option value="1">SUBZI MANDI</option>
+                <option value="1">DELHI DLI</option>
+                <option value="1">MUMBAI CENTRAL</option>
+                <option value="1">HISAR</option>
+                <option value="1">SIKAR</option>
+                <option value="1">JHUNJHUNU</option>
+                <option value="1">RINGUS</option>
+                <option value="1">BIKANER</option>
+                <option value="1">PALI</option>
+                <option value="2">JAIPUR</option>
+                <option value="3">KOLKATA</option>
+            </select>
+            <select class="form-select-md" aria-label="Default select example">
+                <option selected>To</option>
+                <option value="1">HAZRAT NIZZAMUDIN</option>
+                <option value="1">DELHI CANTT</option>
+                <option value="1">YESHWANTPUR</option>
+                <option value="1">PUNE</option>
+                <option value="1">SBC BANGALORE</option>
+                <option value="1">HYDERABAD</option>
+                <option value="1">CHENNAI CENTRAL</option>
+                <option value="1">TIRUPATI</option>
+                <option value="1">COIMBATORE</option>
+                <option value="1">AGRA</option>
+                <option value="1">LUCKNOW</option>
+                <option value="1">PRAYAGRAJ</option>
+                <option value="1">NAGPUR</option>
+                <option value="1">NEW DELHI</option>
+                <option value="1">NAGORE</option>
+                <option value="1">AJMER</option>
+                <option value="1">MATHURA</option>
+                <option value="1">KOTA</option>
+                <option value="1">DAHAR KA BALAJI</option>
+                <option value="1">SUBZI MANDI</option>
+                <option value="1">DELHI DLI</option>
+                <option value="1">MUMBAI CENTRAL</option>
+                <option value="1">HISAR</option>
+                <option value="1">SIKAR</option>
+                <option value="1">JHUNJHUNU</option>
+                <option value="1">RINGUS</option>
+                <option value="1">BIKANER</option>
+                <option value="1">PALI</option>
+                <option value="2">JAIPUR</option>
+                <option value="3">KOLKATA</option>
+            </select>
+            <br>
+            <br>
+            <label style="color: white;" for="">Date: </label>
+            <input type="date">
+            <br>
+            <br>
+            <select class="form-select-md" aria-label="Default select example">
+                <option selected>All Classes</option>
+                <option value="1">SLEEPER</option>
+                <option value="2">AC TIER 1</option>
+                <option value="3">AC TIER 2</option>
+                <option value="3">AC TIER 3</option>
+            </select>
+            <select class="form-select-md" aria-label="Default select example">
+                <option selected>GENERAL</option>
+                <option value="1">TATKAL</option>
+                <option value="3">PREMIUM TATKAL</option>
+                <option value="2">LADIES</option>
+                <option value="3">PWD</option>
+            </select>
+            <br>
+            <br>
+            <button style="
+      background-color: #d7650e;
+      color: white;
+      font-size: large;
+      font-weight: 500;border: none; padding: 5px 40px; border-radius: 5px;
+
+    ">Search</button>
+        </div>
+    </section>
+
+
+    <div class="other mt-5">
+        <h1>
+            <center>Have you not found the right one? <br>
+                Find a service suitable for you here.</center>
+
+
+            <br>
+
+            <center>
+                <h5>FLIGHTS</h5>
+            </center>
+            <img src="./img/direct-flight.png" alt="flights"
+                style="width:10%; background-color: #d4dcec; border-radius: 80px; padding: 10px 10px;">
+
+            <br>
+            <center>
+                <h5>HOTELS</h5>
+            </center>
+            <img src="./img/hotels.png" alt="flights"
+                style="width:10%; background-color: #d4dcec; border-radius: 80px; padding: 10px 10px;">
+
+            <br>
+            <center>
+                <h5>E-CATERING</h5>
+            </center>
+            <img src="./img/food-delivery.png" alt="flights"
+                style="width:10%; background-color: #d4dcec; border-radius: 80px; padding: 10px 10px;">
+            <style>
+                img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                img:hover {
+                    background-color: #4239c5 !important;
+                    cursor: pointer;
+                }
+            </style>
+
+
+
+        </h1>
+    </div>
+
+
+
+
+    <div class="cards" style="padding: 100px;">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./img/exterior.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maharajas' Express
+                        </h5>
+                        <p class="card-text">Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a
+                            sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings,
+                            elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It
+                            has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for
+                            last six years.</p>
+                    </div>
+                    <button
+                        style="border: none; border-radius: 3px; padding: 5px 10px; background-color: #213d77; width: fit-content; color: white; margin-bottom: 10px; margin-left: 10px;">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/Thailand.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">International Packages
+                        </h5>
+                        <p class="card-text">Best deals in International Holiday packages, handpicked by IRCTC, for
+                            Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA,
+                            Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas
+                            medical insurance to give you a hassle-free and memorable experience.
+                        </p>
+                    </div>
+                    <button
+                        style="border: none; border-radius: 3px; padding: 5px 10px; background-color: #213d77; width: fit-content; color: white; margin-bottom: 10px; margin-left: 10px;">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/Kashmir.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Domestic Air Packages
+                        </h5>
+                        <p class="card-text">Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata
+                            Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East,
+                            Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or
+                            Picturesque Islands, IRCTC has it all. Discover India through IRCTC!</p>
+                    </div>
+                    <button
+                        style="border: none; border-radius: 3px; padding: 5px 10px; background-color: #213d77; width: fit-content; color: white; margin-bottom: 10px; margin-left: 10px;">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/Bharat_Gaurav.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bharat Gaurav Tourist Train
+                        </h5>
+                        <p class="card-text">IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation
+                            on train specially designed to promote domestic tourism in India. This train runs on various
+                            theme based circuits covering pilgrimage and heritage destinations in its itinerary on a 5
+                            days to 20 days trip and showcase India’s rich cultural heritage.
+                        </p>
+                    </div>
+                    <button
+                        style="border: none; border-radius: 3px; padding: 5px 10px; background-color: #213d77; width: fit-content; color: white; margin-bottom: 10px; margin-left: 10px;">Read
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+
+        <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.2);">
+            Made by - Prakhar Raj Pandey - 20BCE10423
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
